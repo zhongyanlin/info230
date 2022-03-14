@@ -1,0 +1,25 @@
+<html>
+<body>
+<style>
+@keyframes moving
+{
+   from {background-position:0px 0px}
+    to  {background-position:724px 526px}  
+}
+#front{width:300px;height:200px;
+      background:url(https://www.bruag.com/wp-content/uploads/2014/07/bg-prlx-big-1024x576.jpg) red -300px -200px; animation:moving 5s infinite}
+#top{width:300px;height:100px;
+     background-color:blue;
+     transform:skewX(-45deg) translate(50px,0px)}
+#right{background-color:yellow;
+      height:200px; width:100px; 
+      transform: skewY(-45deg) translate(300px, 50px)
+}
+</style>
+<div id=top>top</div>
+<div id=front>front</div>
+
+<div id=right>right</div>
+</body>
+</html>
+
